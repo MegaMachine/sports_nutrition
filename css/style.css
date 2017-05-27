@@ -672,60 +672,60 @@ h4 {
     font-size: 3rem;
   }
 
-  /* line 46, ../scss/_media-query.scss */
+  /* line 45, ../scss/_media-query.scss */
   .title-down {
     font-size: 2.748rem;
   }
-  /* line 49, ../scss/_media-query.scss */
+  /* line 48, ../scss/_media-query.scss */
   .title-up {
     font-size: 1.6188rem;
   }
 
-  /* line 54, ../scss/_media-query.scss */
+  /* line 53, ../scss/_media-query.scss */
   footer .copyright {
     padding-bottom: 20px;
     width: 100%;
     text-align: center;
   }
-  /* line 59, ../scss/_media-query.scss */
+  /* line 58, ../scss/_media-query.scss */
   footer .social {
     width: 100%;
     text-align: center;
   }
 }
 @media (max-width: 495px) {
-  /* line 66, ../scss/_media-query.scss */
+  /* line 65, ../scss/_media-query.scss */
   .container {
     width: 300px;
   }
 
-  /* line 72, ../scss/_media-query.scss */
+  /* line 71, ../scss/_media-query.scss */
   #wrapper header .container h1.title-main {
     font-size: 2.7rem;
   }
 
-  /* line 81, ../scss/_media-query.scss */
+  /* line 80, ../scss/_media-query.scss */
   .content-info-text .title-up {
     font-size: 1.9rem;
     line-height: 1;
   }
-  /* line 85, ../scss/_media-query.scss */
+  /* line 84, ../scss/_media-query.scss */
   .content-info-text .title-down {
     font-size: 2.7rem;
     line-height: 1;
   }
-  /* line 90, ../scss/_media-query.scss */
+  /* line 89, ../scss/_media-query.scss */
   .content-info-text h3.subtitle {
     font-size: .9rem;
     line-height: 1.5;
   }
 
-  /* line 97, ../scss/_media-query.scss */
+  /* line 96, ../scss/_media-query.scss */
   footer .logo {
     width: 100%;
     margin: 20px 0;
   }
-  /* line 101, ../scss/_media-query.scss */
+  /* line 100, ../scss/_media-query.scss */
   footer .contacts {
     margin: auto;
   }

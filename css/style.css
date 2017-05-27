@@ -1,0 +1,732 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+/* line 5, ../scss/_reset.scss */
+* {
+  box-sizing: border-box;
+}
+
+/* line 8, ../scss/_reset.scss */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+/* line 18, ../scss/_reset.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/* line 21, ../scss/_reset.scss */
+body {
+  line-height: 1;
+}
+
+/* line 24, ../scss/_reset.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 27, ../scss/_reset.scss */
+blockquote, q {
+  quotes: none;
+}
+
+/* line 31, ../scss/_reset.scss */
+blockquote:before, blockquote:after {
+  content: '';
+  content: none;
+}
+
+/* line 36, ../scss/_reset.scss */
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+/* line 40, ../scss/_reset.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/****************Ahronbd***************/
+@font-face {
+  font-family: "Aharoni";
+  src: url("../fonts/Aharoni/Aharoni.eot");
+  src: url("../fonts/Aharoni/Aharoni.eot#iefix") format("embedded-opentype"), url("../fonts/Aharoni/Aharoni.woff") format("woff"), url("../fonts/Aharoni/Aharoni.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+/****************Ahronbd***************/
+@font-face {
+  font-family: "Ahronbd";
+  src: url("../fonts/Ahronbd/Ahronbd.eot");
+  src: url("../fonts/Ahronbd/Ahronbd.eot#iefix") format("embedded-opentype"), url("../fonts/Ahronbd/Ahronbd.woff") format("woff"), url("../fonts/Ahronbd/Ahronbd.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+/****************ALoveOfThunder***************/
+@font-face {
+  font-family: "ALoveOfThunder";
+  src: url("../fonts/ALoveOfThunder/ALoveOfThunder.eot");
+  src: url("../fonts/ALoveOfThunder/ALoveOfThunder.eot#iefix") format("embedded-opentype"), url("../fonts/ALoveOfThunder/ALoveOfThunder.woff") format("woff"), url("../fonts/ALoveOfThunder/ALoveOfThunder.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+/****************AvenirNext***************/
+@font-face {
+  font-family: "AvenirNext";
+  src: url("../fonts/AvenirNext/AvenirNext.eot");
+  src: url("../fonts/AvenirNext/AvenirNext.eot#iefix") format("embedded-opentype"), url("../fonts/AvenirNext/AvenirNext.woff") format("woff"), url("../fonts/AvenirNext/AvenirNext.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+/****************MyriadProRegular***************/
+@font-face {
+  font-family: "MyriadProRegular";
+  src: url("../fonts/MyriadProRegular/MyriadProRegular.eot");
+  src: url("../fonts/MyriadProRegular/MyriadProRegular.eot#iefix") format("embedded-opentype"), url("../fonts/MyriadProRegular/MyriadProRegular.woff") format("woff"), url("../fonts/MyriadProRegular/MyriadProRegular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+/****************PTSans***************/
+@font-face {
+  font-family: "PTSans";
+  src: url("../fonts/PTSans/PTSans.eot");
+  src: url("../fonts/PTSans/PTSans.eot#iefix") format("embedded-opentype"), url("../fonts/PTSans/PTSans.woff") format("woff"), url("../fonts/PTSans/PTSans.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+/****************WiGuru***************/
+@font-face {
+  font-family: "WiGuru";
+  src: url("../fonts/WiGuru/WiGuru.eot");
+  src: url("../fonts/WiGuru/WiGuru.eot#iefix") format("embedded-opentype"), url("../fonts/WiGuru/WiGuru.woff") format("woff"), url("../fonts/WiGuru/WiGuru.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+/***************** Colors *****************/
+/***************** Fonts *****************/
+/*****************Colors*****************/
+/*****************Colors*****************/
+/* line 1, ../scss/_base.scss */
+* {
+  box-sizing: border-box;
+}
+
+/* line 4, ../scss/_base.scss */
+html {
+  font-size: 16px;
+}
+
+/* line 7, ../scss/_base.scss */
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+/* line 11, ../scss/_base.scss */
+body {
+  background: url("../img/bg.jpg");
+}
+
+/* line 15, ../scss/_base.scss */
+h1 {
+  font-size: 4.231rem;
+}
+
+/* line 18, ../scss/_base.scss */
+h2 {
+  font-size: 3.748rem;
+}
+
+/* line 21, ../scss/_base.scss */
+h3 {
+  font-size: 2.188rem;
+}
+
+/* line 24, ../scss/_base.scss */
+h4 {
+  font-size: 1.125rem;
+}
+
+/***************Button***************/
+/* line 2, ../scss/_modules.scss */
+.button {
+  background: #ff6000;
+  text-align: center;
+  display: inline-block;
+  text-decoration: none;
+  color: #ffffff;
+  font-family: "WiGuru", sans-serif;
+}
+
+/***************MainContent***************/
+/* line 12, ../scss/_modules.scss */
+.content {
+  padding-top: 30px;
+  /***************MainContentInfo***************/
+  /***************MainContentItems***************/
+}
+/* line 18, ../scss/_modules.scss */
+.content .content-info-img {
+  width: 57%;
+  text-align: center;
+}
+/* line 22, ../scss/_modules.scss */
+.content .content-info-text {
+  text-align: center;
+  padding-bottom: 50px;
+  width: 43%;
+}
+/* line 26, ../scss/_modules.scss */
+.content .content-info-text .title {
+  margin-bottom: 30px;
+}
+/* line 29, ../scss/_modules.scss */
+.content .content-info-text .subtitle {
+  margin-bottom: 30px;
+}
+/* line 32, ../scss/_modules.scss */
+.content .content-info-text .button {
+  width: 180px;
+  line-height: 45px;
+  height: 41px;
+  border-radius: 5px;
+  font-size: 1.573rem;
+}
+/* line 44, ../scss/_modules.scss */
+.content .content-items {
+  padding: 15px 0;
+}
+/* line 46, ../scss/_modules.scss */
+.content .content-items .flex-box {
+  justify-content: center;
+}
+/* line 48, ../scss/_modules.scss */
+.content .content-items .flex-box .item {
+  padding: 15px;
+}
+/* line 50, ../scss/_modules.scss */
+.content .content-items .flex-box .item .flex-box {
+  width: 260px;
+  height: 80px;
+  padding: 7px;
+  justify-content: space-between;
+}
+/* line 55, ../scss/_modules.scss */
+.content .content-items .flex-box .item .flex-box div {
+  height: 85%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+/* line 62, ../scss/_modules.scss */
+.content .content-items .flex-box .item .flex-box .button {
+  font-family: "WiGuru", sans-serif;
+  width: 80px;
+  height: 20px;
+  line-height: 1.86;
+  border-radius: 3px;
+  font-size: 0.75rem;
+}
+
+/* line 1, ../scss/_layout.scss */
+.container {
+  width: 900px;
+  margin: 0 auto;
+}
+/* line 4, ../scss/_layout.scss */
+.container:after, .container:before {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/* line 10, ../scss/_layout.scss */
+.flex-box {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+/* line 17, ../scss/_layout.scss */
+.title {
+  font-family: "ALoveOfThunder", sans-serif;
+  color: #ffffff;
+  text-shadow: -0   -1px 0   #000000, 0   -1px 0   #000000, -0    1px 0   #000000, 0    1px 0   #000000, -1px -0   0   #000000, 1px -0   0   #000000, -1px  0   0   #000000, 1px  0   0   #000000, -1px -1px 0   #000000, 1px -1px 0   #000000, -1px  1px 0   #000000, 1px  1px 0   #000000, -1px -1px 0   #000000, 1px -1px 0   #000000, -1px  1px 0   #000000, 1px  1px 0   #000000;
+}
+/* line 37, ../scss/_layout.scss */
+.title-main {
+  font-family: 'Ruslan Display', cursive;
+  font-size: 4.5rem;
+  color: #ffffff;
+}
+/* line 42, ../scss/_layout.scss */
+.title-up {
+  font-size: 2.188rem;
+  font-weight: 400;
+  line-height: 0.383;
+  text-align: center;
+  transform: scaleX(1.0014);
+}
+/* line 49, ../scss/_layout.scss */
+.title-down {
+  font-size: 3.748rem;
+  font-weight: 400;
+  line-height: 0.335;
+  text-align: center;
+  transform: scaleX(1.0014);
+}
+
+/* line 57, ../scss/_layout.scss */
+.subtitle {
+  font-family: "PTSans", sans-serif;
+  color: #ffffff;
+  font-size: 1.125rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* line 64, ../scss/_layout.scss */
+.text {
+  font-family: "AvenirNext", sans-serif;
+  color: #ffffff;
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 1.663;
+  text-align: left;
+}
+
+/* line 72, ../scss/_layout.scss */
+.hidden {
+  display: none;
+}
+
+/* line 75, ../scss/_layout.scss */
+.visible {
+  display: block;
+}
+
+/* line 8, ../scss/style.scss */
+#wrapper {
+  /*********************NAVIGATION*********************/
+  /*********************HEADER*********************/
+  /*********************MAIN*********************/
+  /*********************FOOTER*********************/
+}
+/* line 11, ../scss/style.scss */
+#wrapper nav {
+  background: #141414;
+  height: 80px;
+  position: fixed;
+  width: 100%;
+  z-index: 99999;
+}
+/* line 17, ../scss/style.scss */
+#wrapper nav .container {
+  height: 100%;
+}
+/* line 19, ../scss/style.scss */
+#wrapper nav .container .flex-box {
+  width: 100%;
+  height: 100%;
+}
+/* line 22, ../scss/style.scss */
+#wrapper nav .container .flex-box .menu-button {
+  cursor: pointer;
+}
+/* line 29, ../scss/style.scss */
+#wrapper nav .container .flex-box .basket {
+  cursor: pointer;
+  position: relative;
+  margin-right: 10px;
+}
+/* line 33, ../scss/style.scss */
+#wrapper nav .container .flex-box .basket:before {
+  font-family: Arial,sans-serif;
+  color: #ffffff;
+  font-size: 0.813rem;
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  line-height: 20px;
+  text-align: center;
+  content: "1";
+  display: block;
+  border-radius: 50%;
+  background: #ff6000;
+  width: 20px;
+  height: 20px;
+}
+/* line 53, ../scss/style.scss */
+#wrapper .menu {
+  width: calc(100vw - 15px);
+  height: calc(100vh - 80px);
+  position: fixed;
+  top: 80px;
+  z-index: 999999;
+}
+/* line 62, ../scss/style.scss */
+#wrapper .menu .container ul li {
+  height: 60px;
+  width: 210px;
+}
+/* line 65, ../scss/style.scss */
+#wrapper .menu .container ul li:nth-child(1) {
+  background: #8f0001;
+}
+/* line 68, ../scss/style.scss */
+#wrapper .menu .container ul li:nth-child(2) {
+  background: #4e0000;
+}
+/* line 71, ../scss/style.scss */
+#wrapper .menu .container ul li:nth-child(3) {
+  background: #002b57;
+}
+/* line 74, ../scss/style.scss */
+#wrapper .menu .container ul li:nth-child(4) {
+  background: #003a49;
+}
+/* line 77, ../scss/style.scss */
+#wrapper .menu .container ul li:nth-child(5) {
+  background: #5a5a5a;
+}
+/* line 80, ../scss/style.scss */
+#wrapper .menu .container ul li:nth-child(6) {
+  background: #11562e;
+}
+/* line 83, ../scss/style.scss */
+#wrapper .menu .container ul li a {
+  display: flex;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  text-transform: uppercase;
+  font-size: 1rem;
+  text-decoration: none;
+  font-family: "ALoveOfThunder", sans-serif;
+  color: #ffffff;
+  text-shadow: -0   -1px 0   #000000, 0   -1px 0   #000000, -0    1px 0   #000000, 0    1px 0   #000000, -1px -0   0   #000000, 1px -0   0   #000000, -1px  0   0   #000000, 1px  0   0   #000000, -1px -1px 0   #000000, 1px -1px 0   #000000, -1px  1px 0   #000000, 1px  1px 0   #000000, -1px -1px 0   #000000, 1px -1px 0   #000000, -1px  1px 0   #000000, 1px  1px 0   #000000;
+}
+/* line 110, ../scss/style.scss */
+#wrapper .menu .container ul li a span {
+  margin: auto;
+}
+/* line 121, ../scss/style.scss */
+#wrapper header {
+  height: 554px;
+  width: 100%;
+  text-align: center;
+}
+/* line 126, ../scss/style.scss */
+#wrapper header .container h1 {
+  margin-bottom: 30px;
+}
+/* line 135, ../scss/style.scss */
+#wrapper main {
+  width: 100%;
+  /*********************MAIN-whey-protein*********************/
+  /*********************MAIN-whey-isolate*********************/
+  /*********************MAIN-micelar-casein*********************/
+  /*********************MAIN-super-mass-gainer*********************/
+  /*********************MAIN-bcaa*********************/
+  /*********************MAIN-monohydrate-creatine*********************/
+}
+/* line 139, ../scss/style.scss */
+#wrapper main .whey-protein {
+  background: rgba(143, 0, 1, 0.6);
+}
+/* line 142, ../scss/style.scss */
+#wrapper main .whey-protein .content-info .flex-box {
+  flex-direction: row-reverse;
+}
+/* line 146, ../scss/style.scss */
+#wrapper main .whey-protein .content-items {
+  background: #8f0001;
+}
+/* line 149, ../scss/style.scss */
+#wrapper main .whey-protein .content-items .item .flex-box {
+  border: 1px solid #aa1212;
+}
+/* line 157, ../scss/style.scss */
+#wrapper main .whey-isolate {
+  background: rgba(78, 0, 0, 0.6);
+}
+/* line 159, ../scss/style.scss */
+#wrapper main .whey-isolate .content-items {
+  background: #4e0000;
+}
+/* line 162, ../scss/style.scss */
+#wrapper main .whey-isolate .content-items .item .flex-box {
+  border: 1px solid #a10000;
+}
+/* line 170, ../scss/style.scss */
+#wrapper main .micelar-casein {
+  background: rgba(0, 43, 87, 0.6);
+}
+/* line 173, ../scss/style.scss */
+#wrapper main .micelar-casein .content-info .flex-box {
+  flex-direction: row-reverse;
+}
+/* line 177, ../scss/style.scss */
+#wrapper main .micelar-casein .content-items {
+  background: #002b57;
+}
+/* line 180, ../scss/style.scss */
+#wrapper main .micelar-casein .content-items .item .flex-box {
+  border: 1px solid #3e6f8b;
+}
+/* line 188, ../scss/style.scss */
+#wrapper main .super-mass-gainer {
+  background: rgba(0, 58, 73, 0.6);
+}
+/* line 190, ../scss/style.scss */
+#wrapper main .super-mass-gainer .content-items {
+  background: #003a49;
+}
+/* line 193, ../scss/style.scss */
+#wrapper main .super-mass-gainer .content-items .item .flex-box {
+  border: 1px solid #295e6c;
+}
+/* line 201, ../scss/style.scss */
+#wrapper main .bcaa {
+  background: rgba(90, 90, 90, 0.6);
+}
+/* line 204, ../scss/style.scss */
+#wrapper main .bcaa .content-info .flex-box {
+  flex-direction: row-reverse;
+}
+/* line 208, ../scss/style.scss */
+#wrapper main .bcaa .content-items {
+  background: #5a5a5a;
+}
+/* line 211, ../scss/style.scss */
+#wrapper main .bcaa .content-items .item .flex-box {
+  border: 1px solid #666666;
+}
+/* line 219, ../scss/style.scss */
+#wrapper main .monohydrate-creatine {
+  background: rgba(17, 86, 46, 0.6);
+}
+/* line 221, ../scss/style.scss */
+#wrapper main .monohydrate-creatine .content-items {
+  background: #11562e;
+}
+/* line 224, ../scss/style.scss */
+#wrapper main .monohydrate-creatine .content-items .item .flex-box {
+  border: 1px solid #31734d;
+}
+/* line 233, ../scss/style.scss */
+#wrapper footer {
+  padding: 30px 0;
+  background: #303030;
+}
+/* line 236, ../scss/style.scss */
+#wrapper footer .logo-contacts {
+  border-top: 1px solid #4c4c4c;
+  border-bottom: 1px solid #4c4c4c;
+  padding: 15px 0;
+}
+/* line 240, ../scss/style.scss */
+#wrapper footer .logo-contacts .logo {
+  text-align: center;
+}
+/* line 243, ../scss/style.scss */
+#wrapper footer .logo-contacts .logo a img {
+  padding-bottom: 12px;
+}
+/* line 247, ../scss/style.scss */
+#wrapper footer .logo-contacts .logo h3 {
+  position: relative;
+  font-family: "Aharoni", sans-serif;
+  text-transform: uppercase;
+  color: #4c4c4c;
+  font-size: 0.637rem;
+  font-weight: 900;
+  text-align: center;
+}
+/* line 256, ../scss/style.scss */
+#wrapper footer .logo-contacts .logo h3:before {
+  content: url("../img/trademark.png");
+  display: block;
+  position: absolute;
+  top: -7px;
+  right: 85px;
+}
+/* line 266, ../scss/style.scss */
+#wrapper footer .logo-contacts .contacts > h3, #wrapper footer .logo-contacts .contacts a:nth-child(4) {
+  text-transform: uppercase;
+  font-family: "MyriadProRegular", sans-serif;
+  color: #b6b4b3;
+  font-size: 0.81rem;
+  font-weight: 400;
+  line-height: 2.315;
+  text-align: left;
+  text-align: left;
+}
+/* line 277, ../scss/style.scss */
+#wrapper footer .logo-contacts .contacts > a:nth-child(4) {
+  text-transform: uppercase;
+  text-decoration: underline;
+  display: inline-block;
+  margin-top: 30px;
+}
+/* line 283, ../scss/style.scss */
+#wrapper footer .logo-contacts .contacts a, #wrapper footer .logo-contacts .contacts p {
+  color: #b6b4b3;
+  text-decoration: none;
+  font-family: "AvenirNext", sans-serif;
+  color: #9d9b9b;
+  font-size: 0.81rem;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: left;
+}
+/* line 294, ../scss/style.scss */
+#wrapper footer .logo-contacts .contacts p:nth-child(3) a:nth-child(3) {
+  padding-left: 69px;
+}
+/* line 300, ../scss/style.scss */
+#wrapper footer .copyright-social {
+  padding: 20px 0 0 0;
+}
+/* line 303, ../scss/style.scss */
+#wrapper footer .copyright-social .copyright h3 {
+  font-family: "AvenirNext", sans-serif;
+  text-transform: uppercase;
+  color: #9d9b9b;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.857;
+  text-align: center;
+}
+/* line 316, ../scss/style.scss */
+#wrapper footer .copyright-social .social a {
+  margin: 0 5px;
+  display: inline-block;
+  border-radius: 50%;
+  background-color: #646362;
+  width: 33px;
+  height: 33px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+/* line 326, ../scss/style.scss */
+#wrapper footer .copyright-social .social .vk {
+  background-image: url("../img/vk.png");
+}
+/* line 330, ../scss/style.scss */
+#wrapper footer .copyright-social .social .fb {
+  background-image: url("../img/fb.png");
+}
+
+/********** Media Query *************/
+@media (max-width: 920px) {
+  /* line 5, ../scss/_media-query.scss */
+  #wrapper .content .content-info-img, #wrapper .content .content-info-text {
+    width: 100%;
+  }
+  /* line 8, ../scss/_media-query.scss */
+  #wrapper .content .content-info .flex-box {
+    flex-direction: column;
+  }
+
+  /* line 14, ../scss/_media-query.scss */
+  .container {
+    width: 720px;
+  }
+}
+@media (max-width: 768px) {
+  /* line 19, ../scss/_media-query.scss */
+  html {
+    font-size: 15px;
+  }
+
+  /* line 22, ../scss/_media-query.scss */
+  .container {
+    width: 460px;
+  }
+
+  /* line 29, ../scss/_media-query.scss */
+  #wrapper .content .content-info-img img {
+    width: 60%;
+  }
+  /* line 33, ../scss/_media-query.scss */
+  #wrapper .content .content-info .flex-box {
+    flex-direction: column;
+  }
+
+  /* line 40, ../scss/_media-query.scss */
+  header h1.title-main {
+    font-size: 3rem;
+  }
+
+  /* line 45, ../scss/_media-query.scss */
+  .title-down {
+    font-size: 2.748rem;
+  }
+  /* line 48, ../scss/_media-query.scss */
+  .title-up {
+    font-size: 1.6188rem;
+  }
+
+  /* line 53, ../scss/_media-query.scss */
+  footer .copyright {
+    padding-bottom: 20px;
+    width: 100%;
+    text-align: center;
+  }
+  /* line 58, ../scss/_media-query.scss */
+  footer .social {
+    width: 100%;
+    text-align: center;
+  }
+}
+@media (max-width: 495px) {
+  /* line 65, ../scss/_media-query.scss */
+  .container {
+    width: 300px;
+  }
+
+  /* line 71, ../scss/_media-query.scss */
+  #wrapper header .container h1.title-main {
+    font-size: 2.7rem;
+  }
+
+  /* line 80, ../scss/_media-query.scss */
+  .content-info-text .title-up {
+    font-size: 1.9rem;
+    line-height: 1;
+  }
+  /* line 84, ../scss/_media-query.scss */
+  .content-info-text .title-down {
+    font-size: 2.7rem;
+    line-height: 1;
+  }
+  /* line 89, ../scss/_media-query.scss */
+  .content-info-text h3.subtitle {
+    font-size: .9rem;
+    line-height: 1.5;
+  }
+
+  /* line 96, ../scss/_media-query.scss */
+  footer .logo {
+    width: 100%;
+    margin: 20px 0;
+  }
+  /* line 100, ../scss/_media-query.scss */
+  footer .contacts {
+    margin: auto;
+  }
+}
